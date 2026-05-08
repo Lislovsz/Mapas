@@ -1,0 +1,7 @@
+cd C:\Mapa PIU\iniciar_pdv.bat
+
+call .venv\Scripts\activate
+
+python dados.py
+
+pause
