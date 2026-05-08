@@ -208,7 +208,7 @@
             });
         }
         function carregarDados() {
-            fetch('http://192.168.4.154:8080/dados-pdv')
+            fetch('dados.json')
                 .then(res => res.json())
                 .then(data => {
                     todosOsPontos = data;
